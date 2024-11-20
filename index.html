@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STiLearn</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="assets/logo1.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-[var(--bg-primary)] scroll-smooth">
+    <nav
+        class="flex fixed justify-between bg-[var(--bg-primary)] text-[var(--text-primary)] w-full z-10 h-[60px] md:h-[70px] xl:h-[80px]">
+        <ul class="flex items-center gap-[40px] ml-[60px] text-[17px]">
+            <li><img src="./assets/logo1.webp" alt="Ini Logo"
+                    class="h-[45px] border border-[#64ffda] rounded-[50%] cursor-pointer"></li>
+            <li
+                class="hidden transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
+                <a href="#">Home</a>
+            </li>
+            <li
+                class="hidden transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
+                <a href="#about">About</a>
+            </li>
+            <li
+                class="hidden transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
+                <a href="#features">Features</a>
+            </li>
+            <li
+                class="hidden transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
+                <a href="#step">How it Works</a>
+            </li>
+        </ul>
+        <ul class="hidden flex items-center gap-[40px] mr-[60px] xl:flex text-[17px]">
+            <li class="transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300"><a
+                    href="#">What's New</a></li>
+            <li class="transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300"><a
+                    href="#">Help</a></li>
+            <li><button
+                    class="button rounded-[40px] py-[10px] px-[20px] bg-[var(--bg-tertiary)] text-[#101011] font-bold">Contact
+                    Us</button>
+            </li>
+        </ul>
+    </nav>
+    <main class="bg-[#101011] pt-[100px]">
+        <section class="flex flex-col md:h-[600px] xl:h-screen items-center">
+            <div
+                class="flex gap-[10px] items-center border rounded-[20px] border-[#89342E] py-[8px] px-[15px] mt-[20px] xl:mt-[60px]">
+                <h2 class="text-[var(--text-primary)] font-bold">My Other Portofolio</h2>
+                <h1 class="h-[20px] border border-[#888888]"></h1>
+                <div class="flex items-center cursor-pointer text-[#353535] ">
+                    <a href="https://muhammadsyifasurya.github.io/My-Portofolio/"
+                        class="font-bold transform hover:mr-[7px] ease-in-out duration-300 transition-all"
+                        target="_blank" rel="noopener">Read
+                        More</a>
+                    <i class="fas fa-arrow-right ml-[6px] text-[14px]"></i>
+                </div>
+            </div>
+
+            <h2
+                class="text-[#FBFBFB] font-bold text-[40px] text-center leading-none mt-[30px] md:w-[600px] xl:text-[100px] xl:w-[1000px] xl:mt-[60px]">
+                Unlock your Degree with STiLearn</h2>
+
+            <div class="flex gap-[10px] mt-[60px]">
+                <button
+                    class="button rounded-[40px] py-[10px] px-[20px] bg-[var(--bg-tertiary)] text-[#101011] font-bold">Get
+                    Started</button>
+                <button
+                    class="button border border-[#353535] rounded-[40px] py-[10px] px-[20px] text-[#fbfbfb] font-bold">Learn
+                    More<i class="fas fa-arrow-right ml-[6px] text-[14px]"></i></button>
+            </div>
+
+            <div class="flex flex-col items-center gap-[30px] mt-[50px] xl:mt-[200px]">
+                <h2 class="text-[#9D9D9D] text-[15px] font-semibold">Supported by</h2>
+                <ul
+                    class="flex text-[#9D9D9D] items-center flex-wrap mx-[40px] justify-center gap-[20px] xl:gap-[70px]">
+                    <li><img src="./assets/slider1_10.svg" alt="" class="h-[40px]"></li>
+                    <li><img src="./assets/slider1_4 (1).svg" alt="" class="h-[40px]"></li>
+                    <li><img src="./assets/slider1_4.svg" alt="" class="h-[40px]"></li>
+                    <li><img src="./assets/slider1_5.svg" alt="" class="h-[40px]"></li>
+                    <li><img src="./assets/slider1_9.svg" alt="" class="h-[40px]"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section
+            class="xl:h-screen flex flex-col my-[90px] md:my-[100px] xl:pt-[50px] items-center text-[#fbfbfb] justify-center"
+            id="about">
+            <h2 class="text-center font-bold px-[20px] text-[30px] md:w-[500px] xl:text-[40px] xl:w-[700px]">
+                Struggling
+                with Your
+                Project ?
+                We've Got You!
+            </h2>
+            <p
+                class="text-justify px-[20px] mt-[20px] text-[13px] md:text-[20px] md:w-[700px] xl:text-[20px] xl:w-[800px]">
+                We’re here
+                to make your
+                final project journey stress free. Whether it’s creating a modern website, building innovative IoT
+                solutions, or developing custom Android
+                apps, we bring your ideas to life. With our expertise and commitment, we ensure your project is not just
+                completed but truly stands out. Let’s make this milestone a success together! These are the types of
+                projects we handle :</p>
+            <div class="grid grid-cols-4 p-4 gap-2 max-w-5xl mt-[40px] md:w-[600px] xl:w-[800px] xl:gap-9">
+                <div class="skill-img col-span-2 row-span-1 flex items-center justify-center gap-3 xl:gap-5">
+                    <img src="assets/skills/html.webp" alt="icon html"
+                        class="object-contain w-[50px] h-[50px] xl:w-[100px] xl:h-[100px]">
+                    <h1 class="text-3xl font-bold xl:text-4xl">HTML</h1>
+                </div>
+                <div class="skill-img flex justify-center">
+                    <img src="assets/skills/css.webp" alt="icon css"
+                        class="object-contain w-[50px] h-[50px] xl:w-[100px] xl:h-[100px]">
+                </div>
+                <div class="skill-img flex justify-center">
+                    <img src="assets/skills/javascript.webp" alt="icon JavaScript"
+                        class="object-contain bg-white w-[50px] h-[50px] xl:w-[100px] xl:h-[100px]">
+                </div>
+                <div class="skill-img flex justify-center">
+                    <img src="assets/skills/java.webp" alt="icon Java"
+                        class="object-contain w-[50px] h-[50px] xl:w-[100px] xl:h-[100px]">
+                </div>
+                <div class="skill-img col-span-2 row-span-1 flex items-center justify-center gap-2 xl:gap-5">
+                    <img src="assets/skills/react.webp" alt="icon React"
+                        class="object-contain w-[50px] h-[50px] xl:w-[100px] xl:h-[100px]">
+                    <h1 class="text-3xl font-bold xl:text-4xl">REACT</h1>
+                </div>
+                <div class="skill-img flex justify-center">
+                    <img src="assets/skills/nextjs.webp" alt="icon nextJs"
+                        class="object-contain w-[50px] h-[50px] xl:w-[100px] xl:h-[100px]">
+                </div>
+                <div class="skill-img flex justify-center">
+                    <img src="assets/skills/github1.webp" alt="icon GitHub"
+                        class="object-contain w-[50px] h-[50px] xl:w-[100px] xl:h-[100px]">
+                </div>
+                <div class="skill-img flex justify-center">
+                    <img src="assets/skills/firebase.webp" alt="icon Firebase"
+                        class="object-contain w-[50px] h-[50px] xl:w-[100px] xl:h-[100px]">
+                </div>
+                <div class="skill-img col-span-2 row-span-1 flex items-center px-[10px] justify-center gap-1 xl:gap-4">
+                    <img src="assets/skills/tailwind.webp" alt="icon Tailwind"
+                        class="object-contain w-[40px] h-[40px] xl:w-[100px] xl:h-[100px]">
+                    <h1 class="text-2xl font-bold xl:text-4xl">TAILWIND</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col items-center justify-center text-[#fbfbfb] md:my-[100px] xl:h-screen xl:my-0"
+            id="features">
+            <h2 class="text-[30px] xl:text-[40px] font-bold">Why Choose Us ?</h2>
+            <p
+                class="text-[13px] px-[20px] text-justify xl:text-center mt-[20px] md:text-[20px] md:w-[700px] xl:w-[600px]">
+                We're
+                here to make your
+                thesis or final project journey smoother, faster, and stress free. With our expertise, you can focus on
+                achieving your academic goals while we
+                take care of the rest.</p>
+            <h3 class="text-[#fbfbfb] mt-[40px] text-[20px] xl:text-[30px] font-semibold">This is Benefits You'll Get
+            </h3>
+
+            <div
+                class="carousel-container mt-[20px] flex gap-[30px] w-[310px] overflow-hidden items-center xl:justify-center xl:w-screen">
+                <div id="carousel"
+                    class="carousel flex gap-[30px] text-[#303030] transition-transform duration-300 px-[50px]">
+                    <!-- card 1 -->
+                    <div class="card mt-[20px] ml-[-40px] xl:ml-0">
+                        <div
+                            class="card-child border w-[300px] h-[400px] rounded-xl flex flex-col items-center bg-white py-[10px] px-[20px]">
+                            <img src="./assets/img_personalize_support.svg" alt="">
+                            <h2 class="text-[20px] font-bold mt-[15px]">Personalized Support</h2>
+                            <p class="text-center font-semibold mt-[10px]">Get your work done faster and more
+                                efficiently with our expert guidance.</p>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card mt-[20px] ml-[9px] xl:ml-0">
+                        <div
+                            class="card-child border w-[300px] h-[400px] rounded-xl flex flex-col items-center bg-white py-[10px] px-[20px]">
+                            <img src="./assets/img_save_time.svg" alt="">
+                            <h2 class="text-[20px] font-bold">Save Your Time</h2>
+                            <p class="text-center font-semibold mt-[10px]">We make the process easy and manageable, so
+                                you can focus on what matters.</p>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card mt-[20px] ml-[9px] xl:ml-0">
+                        <div
+                            class="card-child border w-[300px] h-[400px] rounded-xl flex flex-col items-center bg-white py-[10px] px-[20px]">
+                            <img src="./assets/img_stress_free.svg" alt="">
+                            <h2 class="text-[20px] font-bold">Stress Free Process</h2>
+                            <p class="text-center font-semibold mt-[10px]">We deliver work that meets top academic
+                                standards
+                                to
+                                help you succeed.</p>
+                        </div>
+                    </div>
+
+                    <div class="card mt-[20px] ml-[9px] xl:ml-0">
+                        <div
+                            class="card-child border w-[300px] h-[400px] rounded-xl flex flex-col items-center bg-white py-[10px] px-[20px]">
+                            <img src="./assets/img_product_quality.svg" alt="">
+                            <h2 class="text-[20px] font-bold">Hight Quality Result</h2>
+                            <p class="text-center font-semibold mt-[10px]">We tailor our services to fit your project
+                                and
+                                academic goals perfectly.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Buttons -->
+                <button id="prev"
+                    class="prev-btn block text-white bg-[#64ffda] p-2 absolute left-[10px] md:left-[200px] rounded-full xl:hidden">‹</button>
+                <button id="next"
+                    class="next-btn block text-white bg-[#64ffda] p-2 absolute right-[10px] md:right-[200px] rounded-full xl:hidden">›</button>
+            </div>
+        </section>
+
+        <section id="step" class="flex flex-col items-center text-[var(--text-primary)]">
+            <div class="h-[570px] pt-[100px] xl:pt-[120px]">
+                <div class="flex items-center justify-center gap-3 xl:gap-7">
+                    <h2 class="text-[30px] text-center font-bold xl:text-3xl">Let's Make It Happen Together!</h2>
+                    <h2 class="hidden h-1 border-b-[1px] w-[120px] xl:w-[350px] xl:block"></h2>
+                </div>
+                <div
+                    class="flex flex-col md:items-center md:w-[600px] xl:items-start xl:justify-center xl:w-screen h-[540px] pt-2 xl:gap-10 xl:pt-14 xl:h-[500px] xl:w-[1000px] xl:flex-row">
+                    <div
+                        class="flex flex-row justifiy-center w-screen md:w-[600px] text-center xl:flex-col xl:w-[100px]">
+                        <label
+                            class="cursor-pointer w-full md:w-[200px] xl:w-[100px] text-[#8892b0] p-4 border-l-[2px] border-[#233554] hover:text-[#64ffda] hover:bg-[#112240] transition-all ease-in-out duration-500 hover:border-[#64ffda]"
+                            for="option1">Step 1</label>
+                        <label
+                            class="cursor-pointer w-full md:w-[200px] xl:w-[100px] text-[#8892b0] p-4 border-l-[2px] border-[#233554] hover:text-[#64ffda] hover:bg-[#112240] transition-all ease-in-out duration-500 hover:border-[#64ffda]"
+                            for="option2">Step 2</label>
+                        <label
+                            class="cursor-pointer w-full md:w-[200px] xl:w-[100px] text-[#8892b0] p-4 border-l-[2px] border-[#233554] hover:text-[#64ffda] hover:bg-[#112240] transition-all ease-in-out duration-500 hover:border-[#64ffda]"
+                            for="option3">Step 3</label>
+                    </div>
+
+                    <input type="radio" id="option1" name="option" />
+                    <input type="radio" id="option2" name="option" />
+                    <input type="radio" id="option3" name="option" />
+
+                    <!-- Text container for Option 1 and Option 2 -->
+                    <div
+                        class="text1 flex gap-10 justify-center rounded-xl flex-col h-60 px-4 md:w-[600px] xl:w-[650px] xl:flex-row">
+                        <img src="./assets/9430578_4153547.svg" alt=""
+                            class="h-[150px] md:h-[200px] rounded-[50%] mt-[168px] md:mt-[170px] xl:mt-0">
+                        <div>
+                            <h2 class="font-bold text-[20px]">Initial Consultation</h2>
+                            <p class="text-[#979EBA] pt-2 text-justify">
+                                Kickstart your journey by reaching out to us! Share the details of your project,
+                                including
+                                your topic, objectives, and specific requirements. We'll discuss your needs and offer a
+                                tailored plan to bring your vision to life.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex gap-10 text2 hidden h-60 px-4 xl:w-[650px] flex-col xl:flex-row">
+                        <img src="./assets/12281499_4894124.svg" alt=""
+                            class="h-[150px] md:h-[200px] rounded-[50%] mt-[30px] xl:mt-0">
+                        <div>
+                            <h2 class="font-bold text-[20px]">Customized Solution</h2>
+                            <p class="text-[#979EBA] pt-2 text-justify">
+                                After understanding your requirements, we’ll craft a personalized plan tailored to your
+                                project. Whether it’s a website, IoT solution, or Android application, we ensure a clear
+                                roadmap and milestones for your final project.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex gap-10 text3 hidden h-60 px-4 xl:w-[650px] flex-col xl:flex-row">
+                        <img src="./assets/11669142_20943760.svg" alt=""
+                            class="h-[150px] md:h-[200px] rounded-[50%] mt-[30px] xl:mt-0">
+                        <div>
+                            <h2 class="font-bold text-[20px]">Project Delivery</h2>
+                            <p class="text-[#979EBA] pt-2 text-justify">
+                                Once everything is finalized, we’ll deliver your completed project with all necessary
+                                documentation. Our team ensures that the final output is polished, functional, and ready
+                                to
+                                meet your academic goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="contact" class="flex flex-col items-center text-white pb-[120px] pt-[120px] xl:pt-0">
+            <h1>What's Next ?</h1>
+            <h2 class="text-3xl font-bold xl:text-5xl xl:pt-4">Get In Touch</h2>
+            <p class="text-center px-3 pt-4 xl:w-[590px] ">My inbox is always open. Whether you have a question or just
+                want to say hi, I’ll try my best to get
+                back
+                to you!
+            </p>
+            <button class="button bg-[var(--bg-tertiary)] mt-12 py-3 px-6 font-bold rounded-md text-[#101011]">Say
+                Hello</button>
+        </section>
+    </main>
+
+
+    <aside
+        class="hidden fixed right-[60px] cursor-pointer text-[#fbfbfb] text-center bottom-[40px] xl:block transform border p-[10px] rounded-[50%] hover:border-[#64ffda] hover:-translate-y-1 hover:text-[#64ffda] transition-all duration-300">
+        <a href="#" class="text-base" aria-label="back to top"><i class="fas fa-arrow-up h-[20px] w-[24px]"></i></a>
+    </aside>
+
+    <footer class="flex flex-col text-[#fbfbfb] py-[40px] w-full items-center justify-center xl:w-screen">
+        <div class="flex justify-between h-full">
+            <div
+                class="flex flex-col md:flex-row xl:flex-row px-[20px] w-screen xl:justify-between xl:w-[1200px] xl:px-0 xl:gap-[100px]">
+                <div class="md:hidden xl:block ml-[20px] xl:ml-0">
+                    <div class="flex items-center gap-[15px] w-[60px] leading-none">
+                        <img src="./assets/logo1.webp" alt="Ini Logo"
+                            class="h-[60px] border border-[#64ffda] rounded-[50%]">
+                        <h1 class="text-[30px] font-bold">Still Learning</h1>
+                    </div>
+                    <p class="pb-[6px] pt-[15px] font-light">Platform pemersatu bangsa nomer 1 di indonesia</p>
+                    <ul class="font-light">
+                        <li class="flex items-center hover:text-[#64ffda] ease-in-out transition-all duration-300"><a
+                                href=""><i class="fab fa-whatsapp mr-[10px]"></i>+62
+                                851-5861-1725</a></li>
+                        <li class="flex items-center hover:text-[#64ffda]"><a href=""><i
+                                    class="fas fa-envelope mr-[10px]"></i>syifamuhammad3139@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="flex mt-[40px] md:mt-[0px] xl:mt-0 xl:gap-[50px] justifiy-center">
+                    <div class="w-[150px] ml-[20px] xl:w-[200px] xl:ml-0">
+                        <h2 class="font-semibold text-[15px] md:text-[20px] xl:text-[20px]">Service</h2>
+                        <ul class="text-[#fafafa] pt-[10px] flex flex-col gap-[5px] font-light">
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    Apa itu pemersatu bangsa</p>
+                            </li>
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    Sistem belajar</p>
+                            </li>
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    Paket Beli</p>
+                            </li>
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    Berita Terkini</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-[100px] md:w-[140px] xl:w-[160px] md:ml-[70px] xl:ml-0">
+                        <h2 class="font-semibold text-[15px] md:text-[20px]">Company</h2>
+                        <ul class="text-[#fafafa] pt-[10px] flex flex-col gap-[5px] font-light">
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    Tentang kami </p>
+                            </li>
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    Kontak Kami </p>
+                            </li>
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    FAQ </p>
+                            </li>
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    Karir </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-[120px] md:ml-[50px] xl:ml-0 md:w-[160px] xl:w-[160px]">
+                        <h2 class="font-semibold text-[15px] md:text-[20px]">
+                            Legacy</h2>
+                        <ul class="text-[#fafafa] pt-[10px] flex flex-col gap-[5px] font-light">
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    Kebijakan Privasi </p>
+                            </li>
+                            <li class="flex items-center gap-[10px] group cursor-pointer">
+                                <h1
+                                    class="w-[10px] h-[1px] border opacity-0 group-hover:opacity-100 ease-in-out transition-all duration-300">
+                                </h1>
+                                <p
+                                    class="transform translate-x-[-18px] xl:translate-x-[-20px] text-[10px] md:text-[15px] group-hover:translate-x-0 ease-in-out transition-all duration-300">
+                                    Syarat dan Ketentuan Layanan</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside
+            class="flex mt-[40px] xl:fixed xl:bottom-[140px] justify-center xl:rotate-90 xl:block text-[#fbfbfb] xl:mt-0 xl:left-[20px]">
+            <ul class="flex gap-6 xl:gap-7 justify-center items-center xl:justify-start xl:mt-0">
+                <li
+                    class="xl:-rotate-90 transform hover:-translate-y-1 xl:hover:-translate-x-1 xl:hover:translate-y-0 transition-all duration-300 hover:text-[#64ffda]">
+                    <a href="https://github.com/muhammadsyifasurya" target="_blank" rel="noopener" class="text-2xl"
+                        aria-label="github">
+                        <i class="fab fa-github"></i></a>
+                </li>
+                <li
+                    class="xl:-rotate-90 transform hover:-translate-y-1 xl:hover:-translate-x-1 xl:hover:translate-y-0 transition-all duration-300 hover:text-[#64ffda]">
+                    <a href="https://www.linkedin.com/in/muhammadsyifasuryasaputra/" target="_blank" rel="noopener"
+                        class="text-2xl" aria-label="linkedin">
+                        <i class="fab fa-linkedin"></i></a>
+                </li>
+                <li
+                    class="xl:-rotate-90 transform hover:-translate-y-1 xl:hover:-translate-x-1 xl:hover:translate-y-0 transition-all duration-300 hover:text-[#64ffda]">
+                    <a href="https://www.instagram.com/muhammadsyifasurya/" target="_blank" rel="noopener"
+                        class="text-2xl" aria-label="instagram">
+                        <i class="fab fa-instagram"></i></a>
+                </li>
+                <li
+                    class="xl:-rotate-90 transform hover:-translate-y-1 xl:hover:-translate-x-1 xl:hover:translate-y-0 transition-all duration-300 hover:text-[#64ffda]">
+                    <a href="https://www.facebook.com/radenmanggalaa" target="_blank" rel="noopener" class="text-2xl"
+                        aria-label="facebook">
+                        <i class="fab fa-facebook"></i></a>
+                </li>
+                <li
+                    class="xl:-rotate-90 transform hover:-translate-y-1 xl:hover:-translate-x-1 xl:hover:translate-y-0 transition-all duration-300 hover:text-[#64ffda]">
+                    <a href="https://www.tiktok.com/@radenmanggala_" target="_blank" rel="noopener" class="text-2xl"
+                        aria-label="tiktok"><i class="fab fa-tiktok"></i></a>
+                </li>
+            </ul>
+        </aside>
+        <div
+            class="flex flex-col items-center text-[#949494] text-[12px] font-bold xl:w-[1210px] mt-[30px] xl:justify-between xl:flex-row">
+            <p>Developed by Muhammad Syifa Surya Saputra</p>
+            <p>2024 &copy; All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+    <script src="./scrips.js"></script>
+</body>
+
+</html>
