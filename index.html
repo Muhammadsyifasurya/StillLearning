@@ -19,23 +19,19 @@
 <body class="bg-[var(--bg-primary)] scroll-smooth">
     <nav
         class="flex fixed justify-between bg-[var(--bg-primary)] text-[var(--text-primary)] w-full z-10 h-[60px] md:h-[70px] xl:h-[80px]">
-        <ul class="flex items-center gap-[40px] ml-[60px] text-[17px]">
+        <ul class="nav-list flex items-center gap-[20px] xl:gap-[40px] ml-[20px] md:ml-[60px] text-[17px]">
             <li><img src="./assets/logo1.webp" alt="Ini Logo"
                     class="h-[45px] border border-[#64ffda] rounded-[50%] cursor-pointer"></li>
-            <li
-                class="hidden transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
+            <li class="transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
                 <a href="#">Home</a>
             </li>
-            <li
-                class="hidden transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
+            <li class="transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
                 <a href="#about">About</a>
             </li>
-            <li
-                class="hidden transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
+            <li class="transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
                 <a href="#features">Features</a>
             </li>
-            <li
-                class="hidden transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
+            <li class="transform hover:-translate-y-[2px] hover:text-[#64ffda] ease-in-out duration-300 md:block">
                 <a href="#step">How it Works</a>
             </li>
         </ul>
@@ -49,6 +45,11 @@
                     Us</button>
             </li>
         </ul>
+        <div class="nav-toggle block xl:hidden ml-[25px] mt-[20px]" onclick="toggleMenu(this)">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </nav>
     <main class="bg-[#101011] pt-[100px]">
         <section class="flex flex-col md:h-[600px] xl:h-screen items-center">

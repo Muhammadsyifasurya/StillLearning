@@ -125,3 +125,51 @@ input[type="radio"] {
 #option3:checked ~ .text3 {
   display: flex;
 }
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 4px;
+  width: 24px;
+  background-color: white;
+  margin: 3px 0;
+  transition: all 0.3s ease;
+}
+
+/* Animasi untuk saat hamburger aktif */
+.nav-toggle.active .bar:nth-child(1) {
+  transform: rotate(45deg) translateY(10px); /* Rotasi dan geser bar pertama ke bawah */
+}
+
+.nav-toggle.active .bar:nth-child(2) {
+  opacity: 0; /* Menyembunyikan bar tengah */
+}
+
+.nav-toggle.active .bar:nth-child(3) {
+  transform: rotate(-45deg) translateY(-10px); /* Rotasi dan geser bar ketiga ke atas */
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    list-style-type: none;
+    flex-direction: column; /* Menyusun menu secara vertikal */
+    position: fixed; /* Memungkinkan untuk memposisikan di luar layar */
+    height: 100vh;
+    width: 100%;
+    max-width: 200px;
+    right: -200px; /* Mulai di luar layar */
+    background-color: rgb(0 0 0 / 60%); /* Warna latar belakang menu */
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 8px; /* Sudut melengkung */
+    transition: right 0.3s ease; /* Transisi halus untuk perubahan posisi */
+  }
+
+  .nav-list.show {
+    right: 0;
+  }
+}
