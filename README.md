@@ -12,7 +12,7 @@ Hello! My name is **Muhammad Syifa Surya Saputra**, a Front-End Developer with a
 
 ## 🌐 About This Website
 
-This website serves as a portfolio to display my work, technical skills, and accomplishments. The site is designed to provide visitors with an intuitive and clean experience while browsing my background, projects, and contact information. It also serves as an introduction to my expertise and future goals in the tech industry.
+This website serves as a portfolio to display my work, technical skills, and accomplishments. The site is designed to provide visitors with an intuitive and clean experience while browsing my background, projects, and contact information. It also serves as an introduction to my expertise and future goals in the tech industry. [View the live version here](https://stilllearning.site/)
 
 ### Key Features
 
