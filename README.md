@@ -35,7 +35,6 @@ The website is organized into several key sections:
 
 - **Text Editor**: Visual Studio Code
 - **Version Control**: Git, GitHub
-- **Font Awesome**: For social media icons
 - **Figma**: For UI/UX design mockups
 
 ## 🧑‍💻 Technologies Used
@@ -66,14 +65,21 @@ The website follows semantic HTML principles for better accessibility and SEO op
 
 ## 🚀 Lighthouse Performance
 
+![Purchasing a Domain](assets/screenshot/lighthouse.PNG)
 This website has been tested using Google Lighthouse, and here are the results:
 
-- **Performance**: 100
+- **Performance**: 99
 - **Accessibility**: 100
 - **Best Practices**: 100
 - **SEO**: 100
 
 These results indicate that the website performs well across various metrics, including load speed, accessibility for users with disabilities, adherence to best practices, and SEO optimization.
+
+### Why Performance is 99:
+
+The Performance score of 99 reflects excellent load speed and overall user experience, but it is slightly impacted by render-blocking resources. Specifically, external CSS files (e.g., Tailwind CSS and FontAwesome) are blocking the first paint of the page, which can delay content visibility.
+
+This minor delay in rendering is the primary reason the performance score is not a perfect 100, though the website still performs exceptionally well.
 
 ## ⚙️ How to Setup
 
@@ -97,3 +103,56 @@ To get this project running on your local machine, follow these steps:
    ```bash
    code .
    ```
+
+## 🚀 Deployment Documentation
+
+### 1. Registering and Setting Up Netlify
+
+![Purchasing a Domain](assets/screenshot/3.png)
+
+- **Register on Netlify**
+- Visit [Netlify](https://www.netlify.com/) to create a new account.
+- After registration, log in to your Netlify account.
+
+### 2. Connecting Netlify to the GitHub Project
+
+![Purchasing a Domain](assets/screenshot/4.png)
+
+- **Deploying from GitHub**
+- In the Netlify dashboard, click **Add New Site** > **Import an Existing Project**.
+- Select **GitHub** as the source, authorize Netlify to access your GitHub account.
+- Choose the repository to deploy and set the `main` branch as the auto-deployment source.
+- Click **Deploy** to start the process.
+
+### 3. Purchasing and Connecting a Domain to Netlify
+
+#### a. Purchasing a Domain
+
+![Purchasing a Domain](assets/screenshot/1.png)
+
+- Purchase a domain from a provider like [Niagahoster](https://www.niagahoster.co.id/).
+- In the Niagahoster dashboard, go to **Domain** > **Search & Check Domain**.
+- Enter your desired domain, click **Check Now**, and select your custom domain.
+
+#### b. Connecting the Domain to Netlify
+
+![Connecting the Domain](assets/screenshot/2.png)
+
+- In Netlify, navigate to **Site Settings** > **Domain Management** > **Add a Domain**.
+- Enter the purchased domain and verify it.
+
+#### 3. Updating DNS Nameservers
+
+![Purchasing a Domain](assets/screenshot/5.png)
+
+- Copy the DNS nameservers provided by Netlify.
+- Go back to Niagahoster, select **Manage** for your domain, and update the nameservers.
+- Wait for the DNS changes to propagate. Your site will be accessible via your custom domain once completed.
+
+### 4. Summary
+
+- **Netlify**: Registration and auto-deployment setup completed.
+- **GitHub**: GitHub repository connected for continuous deployment on Netlify.
+- **Domain**: Custom domain purchased and DNS settings configured for Netlify.
+
+---
