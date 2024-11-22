@@ -1,5 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/dyiPpHu0)
 
+![My Website View](assets/screenshot/Capture.PNG)
+
 # 👋 Introduction
 
 Hello! My name is **Muhammad Syifa Surya Saputra**, a Front-End Developer with a strong passion for creating digital experiences that are user-friendly, efficient, and accessible. I'm currently focusing on enhancing my skills in Software Engineering, particularly front-end development, and continuously learning to improve my craft. This website is a personal portfolio showcasing my skills, projects, and journey as a developer.
@@ -65,7 +67,7 @@ The website follows semantic HTML principles for better accessibility and SEO op
 
 ## 🚀 Lighthouse Performance
 
-![Purchasing a Domain](assets/screenshot/lighthouse.PNG)
+![Lighthouse Performance](assets/screenshot/lighthouse.PNG)
 This website has been tested using Google Lighthouse, and here are the results:
 
 - **Performance**: 99
